@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>밀크티 런처다운로드</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: white;
+      display: flex;
+      flex-direction: column; /* 위→아래 배치 */
+      align-items: center; /* 가운데 정렬 */
+    }
+
+    .top-banner img {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      margin-top: 20px;
+    }
+
+    .center-images {
+      margin: 40px 0;
+      display: flex; /* 가로 나란히 */
+      justify-content: center;
+      align-items: center;
+      gap: 20px; /* 버튼 사이 간격 */
+    }
+
+    .center-images img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+
+    .center-images img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 상단 이미지 -->
+  <div class="top-banner">
+    <img src="0.jpg" alt="상단 이미지">
+  </div>
+
+  <!-- 다운로드 버튼 영역 -->
+  <div class="center-images">
+    <!-- 밀크티 런처 APK 다운로드 -->
+    <a href="https://m.milkt.co.kr/Common/CDataDown?txtFName=/edubank/Launcher/MilkTLauncher.apk&compareHash=bae792c58f5b720c3bf778be8a72c6d0">
+      <img src="3.png" alt="밀크T 런처 다운로드">
+    </a>
+
+    <!-- S6 런처 설치 방법 PPT 다운로드 -->
+    <a href="S6런처 설치.pptx" download>
+      <img src="2.png" alt="설치방법">
+    </a>
+  </div>
+
+</body>
+</html>
